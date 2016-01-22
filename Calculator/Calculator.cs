@@ -8,6 +8,11 @@ namespace Calculator
 {
     public static class Calculator
     {
+        public static decimal Add(decimal augend, decimal addend2)
+        {
+            return (augend + addend2);
+        }
+
        
     }
 }
