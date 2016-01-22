@@ -18,5 +18,15 @@ namespace Calculator
             return (minuend - subtrahend);
         }
 
+        public static decimal Multiply(decimal multiplicand, decimal multiplier)
+        {
+            return (multiplicand * multiplier);
+        }
+
+        public static decimal Divide(decimal dividend, decimal divisior)
+        {
+            return (dividend / divisior);
+        }
+       
     }
 }
