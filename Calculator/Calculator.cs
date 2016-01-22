@@ -13,6 +13,10 @@ namespace Calculator
             return (augend + addend2);
         }
 
-       
+        public static decimal Subtract(decimal minuend, decimal subtrahend)
+        {
+            return (minuend - subtrahend);
+        }
+
     }
 }
