@@ -8,9 +8,9 @@ namespace Calculator
 {
     public static class Calculator
     {
-        public static decimal Add(decimal augend, decimal addend2)
+        public static decimal Add(decimal augend, decimal addend)
         {
-            return (augend + addend2);
+            return (augend + addend);
         }
 
         public static decimal Subtract(decimal minuend, decimal subtrahend)
